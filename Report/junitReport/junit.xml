@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="19.603">
+<testcase classname="To check end to end in parabank site" name="To login using valid credentials" time="10.216">
+<system-out><![CDATA[Given To launch parabank url to login.......................................passed
+When user enter customer login username.....................................passed
+And user enter customer login password......................................passed
+Then user click customer login button.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check end to end in parabank site" name="To open a new account in parabank" time="1.534">
+<system-out><![CDATA[When user click open new account............................................passed
+And user select account type................................................passed
+And user select account to transfer.........................................passed
+Then user click create new account button...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check end to end in parabank site" name="To transfer fund to the created new account" time="1.338">
+<system-out><![CDATA[When user click transfer fund link..........................................passed
+And user enter the amount to transfer.......................................passed
+Then user click transfer button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check end to end in parabank site" name="To pay bill by giving valid credentials" time="3.349">
+<system-out><![CDATA[When user click Bill pay link...............................................passed
+And user enter details of payee.............................................passed
+And user enter account number and enter amount..............................passed
+And user select from account................................................passed
+Then user click send payment button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check end to end in parabank site" name="To apply loan in parabank" time="1.96">
+<system-out><![CDATA[When user click request loan link...........................................passed
+And user enter required loan amount and give down payment...................passed
+And user select account for loan............................................passed
+Then user click apply now button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To check end to end in parabank site" name="To logout of parabank" time="0.765">
+<system-out><![CDATA[When user click logout link.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
